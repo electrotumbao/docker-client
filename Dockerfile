@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 
 ENV DOCKER_VERSION latest
-ENV COMPOSE_VERSION 1.12.0
+ENV COMPOSE_VERSION 1.18.0
 
 RUN apt-get update &&\
     apt-get install -y curl ssh git python
